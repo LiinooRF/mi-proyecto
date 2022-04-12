@@ -1,7 +1,51 @@
-body{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
 }
 
-h1 {
-    color: beige;
+#header{
+    display: flex;
+    background-color:  black;
+    justify-content: center;
 }
+
+.imagen{
+    width: 200px;
+    height: 150px;
+}
+
+#lista{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    font-size: 30px;
+    padding: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+main{
+    background-color: orange;
+    padding-bottom: 500px;
+}
+
+.lovdoimagen{
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    padding-top: 50px;
+}
+
